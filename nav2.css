@@ -1,0 +1,38 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav > ul > li{
+float: left;
+}
+
+nav{
+background-color: darkgray;
+overflow: hidden;
+}
+
+li a{
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+li a:hover{
+    background-color: black;
+    color: chartreuse;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: darkgray;
+}
+
+nav > ul > li:hover> ul{
+    display: block;
+}
