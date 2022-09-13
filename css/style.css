@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	      /*      font-family: 'Open Sans', sans-serif;
+				  font-family: 'Oswald', sans-serif;            */
+}
+
+/*about part css start*/
+.common_heading h4{
+	text-align: center;
+	margin: 60px 0 40px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 26px;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+
+}
+
+.common_heading h4:after{
+	position: absolute;
+    bottom: -3px;
+	left: 46%;
+	content: "";
+	width: 35px;
+	height: 3px;
+	background-color: #0872b9;
+}
+
+.common_heading h4:before{
+	position: absolute;
+    bottom: -3px;
+	left: 49%;
+	content: "";
+	width: 7px;
+	height: 3px;
+	background-color: #0872b9;
+}
+
+.common_heading h4 span:after{
+	position: absolute;
+    bottom: -3px;
+	left: 50%;
+	content: "";
+	width: 5px;
+	height: 3px;
+	background-color: #0872b9;
+}
+
+.common_heading h4 span:before{
+	position: absolute;
+    bottom: -3px;
+	left: 51%;
+	content: "";
+	width: 3px;
+	height: 3px;
+	background-color: #0872b9;
+}
+
+.about_content{
+	margin-top: 45px;
+}
+
+.about_content p{
+	font-size: 13px;
+	text-align: justify;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.about_content p:first-child{
+	padding-bottom: 20px;
+
+}
+/*about part css end*/
+
+
+/*service part css start*/
+
+.ser_icon_main{
+	width: 80px;
+	height: 80px;
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -23%;
+	left: 40%;
+	border: 3px solid #fff;
+	transition: all linear .3s;
+}
+
+.ser_icon{
+	width: 70px;
+	height: 70px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service_content{
+	background-color: #f1f1f1;
+	padding: 50px 22px 5px;
+	text-align: center;
+	transition: all linear .3s;
+	
+}
+
+.service_content:hover{
+	box-shadow: 1px 1px 10px gray;
+	transition: all linear .3s;
+}
+
+.service_content h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.service_content p{
+	font-size: 16px;
+
+}
+
+.service_main{
+	position: relative;
+	margin-top: 30px;
+}
+
+.service_main:hover .ser_icon_main{
+	background-color: #5bc5f4;
+	transition: all linear .3s;
+}
+
+.ser_head h4:after{
+	left: 44.40%;
+}
+
+.ser_head h4:before{
+	left: 47.4%;
+}
+
+.ser_head h4 span:after{
+	left: 48.50%;
+}
+
+.ser_head h4 span:before{
+	left: 49.4%;
+}
+
+
+    
+/*service part css end*/
